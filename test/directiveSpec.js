@@ -21,8 +21,6 @@ describe('optIn', function() {
 	it('should render the element correctly', function() {
 		expect(element.find('form').length).toBe(1);
 		expect(element.find('input').length).toBe(4);
-
-		// expect(5+5).toBe(10);
 	});
 
 });
